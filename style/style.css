@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@400;700&family=Sarala:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+body {
+  background-color: rgb(34, 34, 34);
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title {
+  flex-direction: column;
+  line-height: 10px;
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+}
+
+a {
+  color: #ffaf00;
+}
+
+a:hover {
+  color: bisque;
+  transition: 0.4s all;
+}
+
+#entrar-btn {
+  border: 2px solid #ffaf00;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+#entrar-btn:hover {
+  background-color: #ffaf00;
+  color: black;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 10px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+span {
+  color: #ffaf00;
+}
+
+p {
+  line-height: 20px;
+  max-width: 500px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+form [type="submit"] {
+  height: 50px;
+  width: 50%;
+  background-color: #ffaf00;
+  color: black;
+  font-weight: bolder;
+}
+
+img {
+  margin: 120px 0 0 280px;
+  width: 400px;
+}
+
+
+
+form [type="submit"]:hover {
+  cursor: pointer;
+}
+
+input {
+  margin-top: 20px;
+  height: 20px;
+  padding: 18px;
+  border-radius: 15px;
+  border: none;
+  font-size: 15px;
+}
